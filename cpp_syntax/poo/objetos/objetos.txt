@@ -1,0 +1,41 @@
+os métodos funcionam como uma interface para acessar os atributos privados
+
+uma vez declarada a classe, podemos criar objetos/instâncias da classe (tipo)
+
+a memória é alocada apenas com a criação de objetos (instanciação)
+    - a declaração da classe não cria nada em si
+
+controle de acesso
+    - public
+        - qualquer parte do programa pode acessar diretamente os membros públicos através de um objeto da classe
+        - pode equivaler a um struct/registro
+
+    - private
+        - só pode ser acessado a partir dos métodos públicos da classe
+        - data hiding para preservar integridade dos dados
+            DIFERENÇA ENTRE DATA HIDING E ENCAPSULAMENTO
+            - enc: agrupamento de atributos e métodos em uma única unidade para gerenciar a complexidade de um sistema
+            - dh: técnica de encapsulamento que protege os dados internos de uma classe do acesso direto de entidades externas
+        - também podemos ter funções ocultas (dizem respeito à detalhes de implementação internos)
+
+um membro de uma classe é PRIVADO por padrão
+    - não preciso de uma seção privada explícita, embora seja recomendado reforçar a ocultação de dados
+um membro de um registro/struct é PÚBLICO por padrão
+
+separação:
+- .h:   declaração da classe (interface)
+- .cpp: implementação da classe
+
+benefícios do encapsulamento:
+- não é preciso necessariamente conhecer detalhes de implementação ao acessar apenas a interface de uma classe
+    - posso apenas desejar saber se tal método é implementado ou não / se um dado está presente ou não
+- pode alterar a implementação sem mudar a interface
+
+
+---------------------------------------------------------------------------------
+
+1. Qual a diferença entre um objeto, uma instância e uma variável?
+
+2. O que significa a sigla POD? Uma classe pode ser um POD?
+
+3. Quais são os benefícios do encapsulamento?

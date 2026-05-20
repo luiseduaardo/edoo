@@ -1,0 +1,26 @@
+**Abstração**
+
+- A POO abstrai os problemas em Classes e Objetos
+Isto é, concentra nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais
+
+para paguso:
+"
+Abstração é uma técnica que permite identificar quais detalhes de um objeto ou classe são relevantes para o sistema e devem ser expostos, enquanto os detalhes desnecessários ou complexos são ignorados. Em outras palavras, a abstração foca nos aspectos essenciais que definem o comportamento ou as características de um objeto, ocultando a complexidade subjacente.
+    Exemplo: Em um sistema bancário, uma classe ContaBancária pode expor métodos como sacar() e depositar(), mas os cálculos internos e os processos detalhados (como taxas ou atualizações no banco de dados) permanecem ocultos para o usuário.
+"
+
+poo abstrai objetos em classes:
+    classes possuem:
+        dados = atributos (características do objeto)
+        funções = métodos (operações sobre o objeto)
+    objetos são representantes da classe
+
+------------------------------------------------------------------------------------------
+
+1. Como uma classe obtém uma abstração do mundo real?
+Uma classe obtém uma abstração do mundo real através do mapeamento do que é útil ou relevante atribuir desse elemento do mundo real para o meu programa ao focar apenas em aspectos essenciais que definem o comportamento ou características de um objeto.
+
+2. Qual a relação entre uma classe e um objeto?
+A classe é a abstração de um objeto.
+
+3. De que formas as funções na abordagem orientada a objetos são diferentes das funções na programação estruturada?

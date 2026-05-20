@@ -1,0 +1,39 @@
+uma classe é um tipo
+
+a um tipo é associado:
+    - representação (dados / atributos)
+        - qtd de memória
+        - organização de dados
+        - interpretação dos bits
+
+    - conjunto de operações (funções / métodos)
+        - somar / subtrair
+        - comparar
+        - concatenar
+
+a classe é a forma de traduzir uma abstrção em um tipo definido:
+    declaração da classe: definição de atributos e métodos
+        - seção de membros privados (encapsulamento)
+            - não é possível alterar membros públicos diretamente, apenas a partir da interface
+            - a classe encapsula os atributos (ocultados do resto do programa)
+
+        - seção de membros públicos (interface)
+            - fornece acesso aos dados da classe
+            - garante integridade dos dados da classe
+            - os métodos funcionam como interfaces
+                - alguns atributos só são possíveis de acessar a partir de métodos
+
+    definição da classe: implementação de métodos
+
+paguso
+"
+O encapsulamento foca em "como" os dados e métodos estão organizados e protegidos dentro da classe, escondendo detalhes de implementação.
+"
+
+---------------------------------------------------------------------------------------
+
+1. Qual a semelhança entre classes e tipos primitivos em C++?
+
+2. Como uma classe obtém encapsulamento e ocultação de dados?
+
+3. De que forma os métodos ajudam a manter a integridade dos atributos?
